@@ -1,0 +1,16 @@
+# Core Requirements
+torch==2.0.1
+torchvision==0.15.2
+numpy==1.24.3
+pandas==2.0.1
+matplotlib==3.7.1
+plotly==5.14.1
+wandb==0.15.3
+jiwer==2.5.1  # For CER/WER calculation
+python-slugify==8.0.1  # For text preprocessing
+mplcairo==0.3.1  # For Devanagari rendering
+
+# Optional but Recommended
+ipython==8.14.0  # For notebook environments
+jupyter==1.0.0  # If using Jupyter notebooks
+notebook==6.5.4  # For notebook execution
